@@ -32,29 +32,6 @@ where:
 * (L) represents the low-rank component capturing underlying exposure patterns.
 * (S) represents the sparse component capturing sparse deviations from the low-rank structure.
 
-Repository Structure
-
-pcp-lod-chemical-exposure-analysis/
-│
-├── README.md
-│
-├── R/
-│   ├── 01_prepare_chemical_data.R
-│   ├── 02_clean_and_prepare_data.R
-│   ├── 03_run_pcp_lod_analysis.R
-│   ├── functions.R
-│   ├── grid_search_cv.R
-│   └── pcpr.R
-│
-├── data/
-│   └── README.md
-│
-├── results/
-│   └── README.md
-│
-└── figures/
-    └── README.md
-
 Note: The three main analysis scripts source functions.R, grid_search_cv.R, and pcpr.R. These supporting scripts must also be included in the repository for the workflow to run. The input dataset is not included.
 
 Analysis Workflow
